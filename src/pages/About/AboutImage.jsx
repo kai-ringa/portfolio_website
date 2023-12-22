@@ -4,7 +4,7 @@ const AboutImage = () => {
   return (
     <img
       className="about-image"
-      src="src/components/Hero/images/profile.jpg"
+      src="./Hero/images/profile.jpg"
       alt="about-image"
     />
   );
