@@ -1,0 +1,23 @@
+:root {
+  --mainWhite: whitesmoke;
+  --mainBorderRadius: 8px;
+  --mainTransition: all 0.3s linear;
+}
+
+.technology-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: var(--mainBorderRadius);
+  background-color: #f8f8f8;
+  text-align: center;
+  transition: var(--mainTransition);
+}
+
+.technology-card:hover {
+  transform: scale(1.05);
+}
+
+.technology-card h3 {
+  color: #333;
+  margin-bottom: 8px;
+}

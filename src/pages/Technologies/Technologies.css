@@ -1,0 +1,32 @@
+.technologies-section {
+  text-align: center;
+  padding: 2rem;
+  width: 95vw;
+  margin: 0 auto;
+  max-width: 40rem;
+}
+
+.technologies-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #f39f5a;
+  text-transform: capitalize;
+}
+
+.technology-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+@media screen and (min-width: 800px) {
+  .technologies-section {
+    text-align: center;
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 70rem;
+  }
+  .technology-cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

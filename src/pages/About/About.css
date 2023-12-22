@@ -1,0 +1,46 @@
+.about {
+  text-align: center;
+  padding: 2rem;
+  width: 95vw;
+  margin: 0 auto;
+  max-width: 40rem;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #f39f5a;
+  text-transform: capitalize;
+}
+
+.about-text {
+  text-align: left;
+}
+
+.about p {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: whitesmoke;
+}
+
+@media screen and (min-width: 800px) {
+  .about {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 65rem;
+  }
+  .about-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .about-text {
+    width: 50%;
+  }
+}
